@@ -8,7 +8,16 @@ this simulation was used to to test the controller which is cascaded PID control
 
 how to create the enviroment:
 mkdir sadem_simulation_ros2_ws && cd sadem_simulation_ros2_ws
-git clone 
+git clone https://github.com/MostafaELFEEL/SADEM_Simulation_ROS2.git
+cd ~/sadem_simulation_ros2_ws
+colcon build
+
+
+coppeliasim errors:
+
+Install Coppeliasim edu v.5.4.1
+
+
 
 
 
