@@ -118,7 +118,13 @@ colcon build
 ### Coppeliasim Configuration:
 
 - Download [Coppeliasim edu v.4.5.1](https://www.coppeliarobotics.com/files/V4_5_1_rev4/CoppeliaSim_Player_V4_5_1_rev4_Ubuntu22_04.tar.xz).
-- Update `interfaces.txt` in the Coppeliasim folder and rebuild with `colcon build`.
+- Update `interfaces.txt` by adding those three lines:
+  ```
+  geometry_msgs/msg/Pose
+  geometry_msgs/msg/Point
+  geometry_msgs/msg/PoseStamped
+  ```
+-then colcon build 
 
 ### Launch Simulation:
 
