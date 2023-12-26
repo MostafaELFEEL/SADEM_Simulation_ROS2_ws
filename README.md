@@ -86,7 +86,14 @@ system block diagram:
 Check out our primary project repository: [SADEM_ws](https://github.com/RoniEmad/SADEM_ws)
 
 ## Overview
-SADEM (Swarm of Autonomous Drones for Environment Mapping) is designed to deploy autonomous drones for generating 3D visualizations. This system, equipped with stereo cameras, uses inertial navigation and visual odometry for localization and coordination.
+SADEM (Swarm of Autonomous Drones for Environment Mapping) was a project that aimed to develop a swarm of autonomous drones that can generate detailed 3D visualizations of any indoor or outdoor area. The system consists of several drones that are equipped with stereo cameras and an on-ground base station that performs the heavy computation needed to generate the visualizations. The drones navigate and localize themselves using a combination of inertial navigation and visual odometry, while communication and coordination between the drones are enabled through the use of wireless protocols and algorithms.
+
+This simulation was made using CoppeliaSim to test cascaded PID control.
+
+## Drone Control Loop:
+![image](https://github.com/MostafaELFEEL/SADEM_Simulation_ROS2/assets/106331831/19c914fe-567b-44d9-8321-913ad5a1c02a)
+
+
 
 ## Setup and Execution
 
