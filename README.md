@@ -48,7 +48,7 @@ colcon build --packages-select sim_ros2_interface
   
 
 ### Launch Simulation:
-- **Run CoppeliaSim**
+- **Run CoppeliaSim:**
 ```bash
 cd ~/<Path_to_Coppeliasim_Folder> && ./coppeliaSim.sh
 ```
