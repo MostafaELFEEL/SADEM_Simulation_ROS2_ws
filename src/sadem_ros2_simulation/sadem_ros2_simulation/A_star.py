@@ -59,7 +59,7 @@ class pathplanning(Node):
 		self.reset_map_pub.publish(msg)
 		sleep(self.rate)
 
-		path=os.path.abspath('')+'/src/sadem_ros2_simulation/sadem_ros2_simulation/maps/map'+str(your_parameter_value)+'.png'
+		path=os.path.abspath('')+'/sadem_simulation_ros2_ws/src/sadem_ros2_simulation/sadem_ros2_simulation/maps/map'+str(your_parameter_value)+'.png'
 		self.map=np.array(plt.imread(path))   #<-------------------------------------
 		self.z=5
 		self.map_scale=2
