@@ -55,7 +55,7 @@ cd ~/<Path_to_Coppeliasim_Folder> && ./coppeliaSim.sh
 
 - **Default Simulation:**
 ```bash
-cd ~/sadem_simulation_ros2_ws && ros2 launch sadem_ros2_simulation sadem_sim.py
+cd && ros2 launch sadem_ros2_simulation sadem_sim.py
 ```
 ```bash
 ros2 run sadem_ros2_simulation controller
@@ -63,7 +63,7 @@ ros2 run sadem_ros2_simulation controller
 
 - **Specific Map Simulation:**
 ```bash
-cd ~/sadem_simulation_ros2_ws && ros2 launch sadem_ros2_simulation sadem_sim.py map_number:=1
+cd && ros2 launch sadem_ros2_simulation sadem_sim.py map_number:=1
 ```
 ```bash
 ros2 run sadem_ros2_simulation controller
@@ -72,11 +72,11 @@ ros2 run sadem_ros2_simulation controller
 ### Individual Component Execution:
 
 ```bash
-cd ~/sadem_simulation_ros2_ws && ros2 run sadem_ros2_simulation a_star --ros-args -p map_number:=1
+cd && ros2 run sadem_ros2_simulation a_star --ros-args -p map_number:=1
 ```
 or
 ```
-cd ~/sadem_simulation_ros2_ws && ros2 run sadem_ros2_simulation a_star
+cd && ros2 run sadem_ros2_simulation a_star
 ```
 ```bash
 ros2 run sadem_ros2_simulation path_to_goal
